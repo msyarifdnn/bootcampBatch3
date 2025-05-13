@@ -1,0 +1,35 @@
+html, body {
+  font-family: "Segoe UI", sans-serif;
+  scroll-behavior: smooth;
+}
+.hero {
+  padding: 60px 0;
+}
+.hero img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+.btn-blue {
+  background-color: #0388fc;
+  color: white;
+  border: none;
+}
+.btn-blue:hover {
+  background-color: #77c0ff;
+}
+.icon-box i {
+  font-size: 24px;
+  color: #0388fc;
+}
+.projects .card {
+  transition: transform 0.2s;
+}
+.projects .card:hover {
+  transform: scale(1.03);
+}
+
+@media screen and (max-width: 768px) {
+  .kecil {
+    width: 280px;
+  }
+}
