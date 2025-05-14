@@ -1,0 +1,35 @@
+body {
+  background-color: #242424;
+  color: #ffffff;
+}
+.card {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+}
+.card:hover {
+  transform: scale(1.03);
+  transition: all 0.3s;
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.15);
+}
+.form-control,
+.form-select {
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #444;
+}
+.form-control::placeholder {
+  color: #aaa;
+}
+.card-img-top {
+  height: 350px;
+  object-fit: cover;
+}
+.bg-dark {
+  background-color: #111 !important;
+}
+
+@media screen and (max-width: 767px) {
+  .jarak {
+    gap: 5px;
+  }
+}
