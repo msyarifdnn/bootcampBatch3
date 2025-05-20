@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
+    <title>Task 7 Bootcamp Batch 3</title>
+  </head>
+  <body style="background-color: #777;">
+    <div class="container">
+      <div class="card mt-5 ">
+        <h5 class="card-header text-center bg-secondary text-white">Tambah Data Produk</h5>
+        <div class="card-body">
+          <form action="product.php" method="post" enctype="multipart/form-data">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Nama Produk</label>
+              <input type="text" class="form-control" name="namaProduk" >
+            </div>
+            <div class="mb-3">
+              <label for="gambar" class="form-label">Gambar Produk</label>
+              <input class="form-control" type="file" name="gambar" id="gambar">
+            </div>
+            <div class="mb-3">
+              <label for="basic-url" class="form-label">Harga Produk</label>
+              <div class="input-group">
+                <span class="input-group-text" id="basic-addon3">Rp</span>
+                <input name="harga" type="number" class="form-control" id="basic-url" >
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="deskripsi" class="form-label">Deskripsi Produk</label>
+              <textarea name="deskripsi" class="form-control" id="deskripsi" rows="3" ></textarea>
+            </div>
+            <button type="submit" name="tambah" class="btn btn-primary">Tambahkan</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
