@@ -1,0 +1,1 @@
+<h1>Ini Halaman products</h1><?php /**PATH C:\laragon\www\task10\resources\views/products.blade.php ENDPATH**/ ?>

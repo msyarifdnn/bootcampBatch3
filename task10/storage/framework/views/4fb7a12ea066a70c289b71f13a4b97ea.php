@@ -1,0 +1,1 @@
+<h1>Ini Halaman checkout</h1><?php /**PATH C:\laragon\www\task10\resources\views/checkout.blade.php ENDPATH**/ ?>

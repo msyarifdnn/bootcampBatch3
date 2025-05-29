@@ -1,0 +1,1 @@
+<h1 class="text-center">Ini Halaman Home</h1><?php /**PATH C:\laragon\www\task10\resources\views/home.blade.php ENDPATH**/ ?>
